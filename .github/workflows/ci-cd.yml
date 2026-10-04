@@ -57,3 +57,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo "DB Username: ${{ secrets.DB_USERNAME }}"
+          echo "App Port: ${{ vars.APP_PORT }}"
